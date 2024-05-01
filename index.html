@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    FristCode
+  </title>
+  <style>
+
+    .Subscribe {
+      background-color: red;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      color: white;
+      height: 40px;
+      width: 100px;
+      font-size: medium;
+      transition: opacity 0.3s;
+      margin-left: 555px ;
+      margin-right: 10px ; 
+      margin-top: 10px;
+      margin-bottom: 0%;
+
+    }
+
+    .Subscribe:hover {
+      opacity: 0.7;
+      
+    }
+    
+    .Join  {
+      background-color: rgb(255, 255, 255);
+      border-color: rgb(123, 7, 87);
+      border-radius: 8px;
+      cursor: pointer;
+      color: rgb(123, 7, 87);
+      height: 39px;
+      width: 60px;
+      font-size: 15px;
+      border-style :solid ;
+      transition: background-color 1s , color 1s ;
+      padding-left: 10px;
+      padding-right: 10px; 
+      padding-top : 8px;
+      padding-bottom: 8px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 0%;
+    
+    }
+    .Join:hover {
+      background-color:  rgb(123, 7, 87) ;
+      color : white; 
+      border : none;
+      
+    }
+    .Tweet {
+
+      background-color: rgb(0, 110, 255);
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      color: white;
+      height: 40px;
+      width: 100px;
+      font-size: medium;
+      transition: opacity 0.3s;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 0%;
+  
+    }
+
+    .Tweet:hover {
+    box-shadow: 3px 2px 20px rgb(74, 74, 74);
+      
+    }
+    .hello
+    {
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .about{
+      text-align: center;
+      margin-top: 0;
+    }
+    button{
+      align-items: center; 
+    } 
+    .search-box{
+      margin-left: 550px;
+      font-size: 25px;
+      border-color: rgb(35, 35, 35);
+      border-radius: 8px;
+      border-style: solid;
+      margin-top: 30px;
+      padding-left: 10px;
+      padding-top:10px;
+      padding-bottom:10px;
+      border-color: rgb(104, 104, 104);
+      display: block;
+    }
+    .search-box:hover {
+
+      box-shadow: 0 6px 20px rgba(74, 74, 74, 0.5);
+   
+    }
+    .pic, .pic2, .pic3 {
+      width: 200px;
+      border-radius: 10px;
+      margin-top: 30px;
+      object-fit: fill;
+      object-position: center;
+      display: inline-block;
+      transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+      margin-right:0px;
+      margin-left: 20px;
+
+    }
+    .pic:hover, .pic2:hover, .pic3:hover {
+      width: 250px;
+      border-radius: 15px;
+      margin-top: 20px;
+      object-fit: fill;
+      object-position: center;
+      display:inline-block;
+      box-shadow: 0 6px 20px rgba(74, 74, 74, 0.5);
+    }
+    .pic {
+    margin-left: 400px ;
+    }
+    .pic2{
+    margin-left : 20px;
+    }
+    .first-name , 
+    .Name {
+      margin-top: 20px;
+      font-size: 30px;
+      display: inline-block;
+      border: 0.75px;
+      border-color: rgb(117, 117, 117);
+      border-radius :10px;
+      width: 200px;
+      height: 40px;
+      border-style:solid;
+      padding-left: 10px;
+      padding-top:10px;
+      padding-bottom:10px;
+      margin-bottom: 0px;
+    }
+    .first-name {
+      margin-left : 500px
+    }
+    .Name{
+      margin-left: 8px;
+    }
+    .Email {
+      margin-top: 30px;
+      font-size: 30px;
+      display: block;
+      border: 0.75px;
+      border-color: rgb(117, 117, 117);
+      border-radius :10px;
+      width: 425px;
+      height: 40px;
+      border-style:solid;
+      padding-left: 10px;
+      padding-top:10px;
+      padding-bottom:10px;
+      margin-left:500px;
+      margin-top: 15px;
+    }
+    .sign-up{
+      margin-top: 30px;
+      font-size: 30px;
+      display: block;
+      border: none;
+      background-color:  rgb(134, 29, 215);
+      color: white;
+      border-radius :15px;
+      width: 440px;
+      height: 80px;
+      border-style:solid;
+      padding-left: 10px;
+      padding-top:10px;
+      padding-bottom:10px;
+      margin-left:500px;
+      margin-top: 15px;
+      transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
+
+    }
+    .sign-up:hover{
+      border-radius :25px;
+      width: 500px;
+      height: 80px;
+      background-color: white;
+      color:  rgb(134, 29, 215);
+      margin-left:470px;
+      box-shadow: 0 6px 20px rgba(74, 74, 74, 0.5);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="Subscribe">
+    Subscribe
+  </button>
+  
+  <button class="Join">
+    Join
+  </button>
+
+  <button class="Tweet">
+    Tweet
+  </button>
+  <h1 class="hello">
+    Welcome to my channel 
+  </h1>
+  <p class="about">
+    I'm a graphic designer and Web developer, hope you like my work &#9829; 
+  </p>
+  <input class="search-box" type="text" class="search" placeholder= "search">
+  <div>
+    <img class="pic" src="pic.jpg">
+    <img class="pic2" src="pic2.jpg">
+    <img class="pic3" src="pic3.jpg">
+  </div>
+ 
+  <input class="first-name" type="text" placeholder="First Name">
+  <input class="Name" type="text" placeholder="Name">
+  <input class="Email" type="text" placeholder="Email">
+  <button class="sign-up">
+    Sign up
+  </button>
+
+</body>
+</html>
